@@ -1,8 +1,11 @@
 # Introduction
 
+This is a basic starter for your quick NodeJS projects.
+
+Babel, env vars and prettier out of the box, with more coming soon.
+
 Project designed for Node 12.14.0
 Babel transpiles the ES2020 app to be backward compatible and outputs the artifact to the ./dist folder
-
 .env file holds secrets
 
 # To Do
