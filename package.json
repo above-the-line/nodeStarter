@@ -1,0 +1,30 @@
+{
+  "name": "tplink-hs110-grafana",
+  "version": "1.0.0",
+  "description": "Polls TP-LINK-HS110 and logs to local or cloud TIG stack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist",
+    "start": "npm run build && node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://smart-gate@dev.azure.com/smart-gate/TPLINK-HS110-GRAFANA/_git/TPLINK-HS110-GRAFANA"
+  },
+  "keywords": [
+    "IOT"
+  ],
+  "author": "AM",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4",
+    "core-js": "^3.6.5",
+    "dotenv": "^8.2.0"
+  }
+}
